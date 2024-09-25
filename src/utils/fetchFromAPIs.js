@@ -8,7 +8,7 @@ const options = {
       },
     headers: {
       'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,  // API Key fetch from enviroment variable.
-      'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'      // Define API host, YouTube API Host URL
+      'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'      // It tell that request is going on youtube api 
     }
   };
 
