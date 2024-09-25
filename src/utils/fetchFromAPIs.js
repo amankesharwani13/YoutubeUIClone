@@ -7,7 +7,7 @@ const options = {
         maxResults: 50,
       },
     headers: {
-      'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,  // API Key fetch from enviroment variable.
+      'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,  // API Key fetch from Rapid API
       'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'      // It tell that request is going on youtube api 
     }
   };
